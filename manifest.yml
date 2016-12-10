@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: quickstart
+  host: quickstart
+  disk_quota: 1024M
+  services:
+  - quickstart-cloudantNoSQLDB
